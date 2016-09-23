@@ -4,7 +4,7 @@
 
     <groupId>com.shedhack.maven</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <description>${artifactId}</description>
     <url>https://github.com/imamchishty/${artifactId}</url>
@@ -36,13 +36,13 @@
         <url>git@github.com:imamchishty/${artifactId}.git</url>
         <tag>HEAD</tag>
     </scm>
-
+<!--
     <distributionManagement>
         <repository>
             <id>bintray</id>
             <url>https://api.bintray.com/maven/imamchishty/maven/${artifactId}</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement>-->
 
     <developers>
         <developer>
@@ -73,6 +73,13 @@
                 <version>Brixton.SR5</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-all</artifactId>
+                <version>1.10.19</version>
+                <scope>test</scope>
             </dependency>
 
         </dependencies>
