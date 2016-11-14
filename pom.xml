@@ -36,13 +36,13 @@
         <url>git@github.com:imamchishty/${artifactId}.git</url>
         <tag>HEAD</tag>
     </scm>
-<!--
+
     <distributionManagement>
         <repository>
             <id>bintray</id>
             <url>https://api.bintray.com/maven/imamchishty/maven/${artifactId}</url>
         </repository>
-    </distributionManagement>-->
+    </distributionManagement>
 
     <developers>
         <developer>
